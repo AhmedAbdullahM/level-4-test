@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice on level four</title>
+    <style>
+        div{
+            margin-bottom:10px ;  
+        }
+        button{
+            padding: 10px 10px;
+            margin: 5px;
+            background-image: linear-gradient(steelblue,skyblue);
+            border: 2px solid slategray;
+        }
+        input{
+            background-color: beige;
+            max-width: 20%;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div><input type="text" id="name-field"> <button id="btn-delete-name">Delete Name</button> <button id="btn-send-name">Send Name</button></div>
+    <!-- name end -->
+    <div><input type="email" id="email-field"> <button id="btn-delete-email">Delete email</button> <button id="btn-send-email">Send Email</button></div>
+    <!-- email end  -->
+    <div><input type="text" id="sms-field"> <button id="btn-delete-message">Delete Message</button> <button id="btn-send-message">Send Message</button></div>
+    <!-- Message end  -->
+<button id="btn-all-send" onclick="addAll()">Send all button</button> <button>Remove all</button>
+    <script src="js.js"></script>
+</body>
+</html>
